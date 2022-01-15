@@ -67,6 +67,13 @@ body {
 .banner-right img {
     width: 60%;
     margin-left: 30px;
+    transition: width 2s, height 2s, transform 2s;
+}
+
+.banner-right img:hover {
+    width: 300px;
+    height: 300px;
+    transform: rotate(180deg);
 }
 
 .banner-left p {
@@ -153,6 +160,12 @@ input {
 /* mobail-divices-start */
 
 @media (max-width:688px) {
+    .container {
+        width: 100%;
+    }
+    .company-name {
+        margin-right: 30px;
+    }
     .contact-us {
         display: block;
         width: 100%;
@@ -161,10 +174,10 @@ input {
     }
     .cards {
         grid-template-columns: 1fr;
-        align-items: center;
     }
     .card {
         margin-right: 800px;
+        flex-direction: column;
     }
     .banner {
         display: grid;
