@@ -160,23 +160,19 @@ input {
 /* mobail-divices-start */
 
 @media (max-width:688px) {
-    .container {
-        width: 100%;
-    }
     .company-name {
-        margin-right: 30px;
+        margin-right: 0px;
     }
     .contact-us {
         display: block;
         width: 100%;
-        align-items: center;
-        margin-left: 50px;
+        margin-right: 0px;
     }
     .cards {
         grid-template-columns: 1fr;
     }
     .card {
-        margin-right: 800px;
+        margin-right: 600px;
         flex-direction: column;
     }
     .banner {
