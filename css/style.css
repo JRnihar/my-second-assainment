@@ -161,12 +161,12 @@ input {
 
 @media (max-width:688px) {
     .company-name {
-        margin-right: 0px;
+        margin-right: 50px;
     }
     .contact-us {
         display: block;
         width: 100%;
-        margin-right: 0px;
+        margin-right: 50px;
     }
     .cards {
         grid-template-columns: 1fr;
@@ -199,12 +199,12 @@ input {
 
 @media only screen and(min-width:688px) and(max-width:992px) {
     .company-name {
-        margin-right: 0px;
+        margin-right: 50px;
     }
     .contact-us {
         display: block;
         width: 100%;
-        margin-right: 0px;
+        margin-right: 50px;
     }
     .cards {
         grid-template-columns: 1fr 1fr;
